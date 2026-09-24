@@ -36,7 +36,7 @@ Runs every file under `evals/` one at a time (`fileParallelism: false`) so the m
 
 ## CI
 
-`.github/workflows/evals.yml` runs `npm test` on every pull request. Add `ANTHROPIC_API_KEY`, `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` as repository secrets, then require the `evals` check in the branch protection rules for `main` to block merges when an eval fails.
+`.github/workflows/mastra-evals.yml` runs `npm test` on every pull request, or manually from the Actions tab. Add `ANTHROPIC_API_KEY`, `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` as repository secrets, then require the `mastra-evals` check in the branch protection rules for `main` to block merges when an eval fails.
 
 ## Studio
 
