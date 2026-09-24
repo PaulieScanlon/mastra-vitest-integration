@@ -17,7 +17,8 @@ Demo project for the [Mastra Vitest integration](https://mastra.ai/docs/evals/vi
 Copy `.env.example` to `.env` and set:
 
 - `ANTHROPIC_API_KEY`
-- `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` (optional, falls back to `file:./mastra.db`)
+- `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` for [Turso](https://turso.tech) storage
+- `MASTRA_PLATFORM_ACCESS_TOKEN`, `MASTRA_PROJECT_ID` and `MASTRA_PLATFORM_OBSERVABILITY_ENDPOINT` (optional, for deploying to the [Mastra platform](https://mastra.ai/docs/mastra-platform/overview))
 
 Then install:
 
